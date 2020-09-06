@@ -120,6 +120,8 @@ q:after {
 }
 
 a {
+  position: relative;
+  top: 43px;
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -156,6 +158,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body{
+  background-color: #FFF1E6;
+}
 
 /* change border colour to suit your needs */
 hr {
@@ -172,12 +177,10 @@ select {
   vertical-align: middle;
 }
 
+
+
 /* ACTUAL CODE */
-
-
-
-
-
+/*Home Intro*/
 .hptext {
   color: #04102e;
   padding: 10px;
@@ -185,9 +188,19 @@ select {
   position: static;
 }
 
+.intro {
+  font-size: 45px;
+  text-align: center;
+  padding: 40px;
+}
 #intro {
   font-size: 45px;
-
+  text-align: center;
+}
+.des{
+  text-align: center;
+  padding: 20px;
+  bottom: 20px;
 }
 
 #Description {
@@ -228,17 +241,39 @@ li a:hover {
   background-color: grey;
 }
 
+/*Home intro table*/
+
+.intro-table{
+  position: relative;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 50px 0;
+  background-color: white;
+  padding: 150px;
+  
+}
+.tabs{
+  position: relative;
+  top: 20px;
+}
 .boxes{
   display: inline;
+
 }
 .box1{
   width: 230px;
   height: 280px;
   padding: 20px;
-  border: 5px solid gray;
+  color: black;
+  text-align: center;
+  /*border: 5px solid gray;
+  border-style: double;*/
   margin-left: 200px;
   margin-top:30px;
   margin-bottem:30px;
+  box-shadow: 0 15px 10px #777;
+  background-color: #EDDCD2;
+  
 }
 
   
@@ -246,19 +281,120 @@ li a:hover {
   width: 230px;
   height: 280px;
   padding: 20px;
-  border: 5px solid gray;
+  color: black;
+  text-align: center;
+  /*border: 5px solid gray;
+  border-style: double;*/
   margin-left: 200px;
   margin-top:30px;
   margin-bottem:30px;
+  box-shadow: 0 15px 10px #777;
+  background-color: #EDDCD2;
 }
 
 .box3 {
   width: 230px;
   height: 280px;
   padding: 20px;
-  border: 5px solid gray;
+  color: black;
+  text-align: center;
+  /*border: 5px solid gray;
+  border-style: double;*/
   margin-left: 200px;
   margin-top:30px;
   margin-bottem:30px;
+  box-shadow: 0 15px 10px #777;
+  background-color: #EDDCD2;
 }
 
+/*Book Table*/
+
+.book-table{
+  position: relative;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 50px 0;
+  top: 30px;
+  background-color: white;
+  padding: 150px;
+}
+
+#bvl{ 
+  float: left;//
+  width: 0px;
+  /*margin: 50px;*/
+  border-color: #DDBEA9;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 20px;
+  height:px;
+}
+/*movie tble*/
+.movie-table{
+  position: relative;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 50px 0;
+  top: 30px;
+  background-color: white;
+  padding: 150px;
+}
+
+.quizzes{
+  display: inline;
+
+}
+
+.Bookquiz{
+
+  padding: 20px;
+  color: black;
+  text-align: center;
+  /*border: 5px solid gray;
+  border-style: double;*/
+  margin-left: 100px;
+  margin-top:30px;
+  margin-bottem:30px;
+  margin-right: 100px;
+  box-shadow: 0 15px 10px #777;
+  background-color: #EDDCD2;
+  
+}
+
+  
+.Moviequiz {
+ padding: 20px;
+  color: black;
+  text-align: center;
+  /*border: 5px solid gray;
+  border-style: double;*/
+  margin-left: 100px;
+  margin-top:30px;
+  margin-bottem:30px;
+  margin-right: 100px;
+  box-shadow: 0 15px 10px #777;
+  background-color: #EDDCD2;
+}
+
+.Moviereviews {
+  padding: 20px;
+  color: black;
+  text-align: center;
+  /*border: 5px solid gray;
+  border-style: double;*/
+  margin-left: 100px;
+  margin-top:30px;
+  margin-bottem:30px;
+  margin-right: 100px;
+  box-shadow: 0 15px 10px #777;
+  background-color: #EDDCD2;
+  
+}
+
+.quizdes {
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 80px;
+  font-weight: bold;
+}
