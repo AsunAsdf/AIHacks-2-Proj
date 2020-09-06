@@ -190,7 +190,7 @@ select {
 
 }
 
-h2 {
+#Description {
   padding: 20px;
   font-size: 15px;
   color: #04102e;
@@ -226,5 +226,39 @@ li a {
 
 li a:hover {
   background-color: grey;
+}
+
+.boxes{
+  display: inline;
+}
+.box1{
+  width: 230px;
+  height: 280px;
+  padding: 20px;
+  border: 5px solid gray;
+  margin-left: 200px;
+  margin-top:30px;
+  margin-bottem:30px;
+}
+
+  
+.box2 {
+  width: 230px;
+  height: 280px;
+  padding: 20px;
+  border: 5px solid gray;
+  margin-left: 200px;
+  margin-top:30px;
+  margin-bottem:30px;
+}
+
+.box3 {
+  width: 230px;
+  height: 280px;
+  padding: 20px;
+  border: 5px solid gray;
+  margin-left: 200px;
+  margin-top:30px;
+  margin-bottem:30px;
 }
 
