@@ -261,8 +261,8 @@ li a:hover {
 
 }
 .box1{
-  width: 230px;
-  height: 280px;
+  width: 250px;
+  height: 300px;
   padding: 20px;
   color: black;
   text-align: center;
@@ -278,8 +278,8 @@ li a:hover {
 
   
 .box2 {
-  width: 230px;
-  height: 280px;
+  width: 250px;
+  height: 300px;
   padding: 20px;
   color: black;
   text-align: center;
@@ -293,8 +293,8 @@ li a:hover {
 }
 
 .box3 {
-  width: 230px;
-  height: 280px;
+  width: 250px;
+  height: 300px;
   padding: 20px;
   color: black;
   text-align: center;
@@ -327,7 +327,8 @@ li a:hover {
   border-width: 4px;
   border-style: solid;
   border-radius: 20px;
-  height:px;
+  position: relative;
+  bottom: 40px;
 }
 /*movie tble*/
 .movie-table{
